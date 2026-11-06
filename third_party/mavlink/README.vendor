@@ -1,0 +1,14 @@
+Official MAVLink C library v2, unmodified headers
+Source: https://github.com/mavlink/c_library_v2
+Commit: a2d0ecf011a4aaa7840480e43f4e38d8c9e79d29
+Archive: https://codeload.github.com/mavlink/c_library_v2/tar.gz/a2d0ecf011a4aaa7840480e43f4e38d8c9e79d29
+
+Included: root *.h, common/*.h, standard/*.h, minimal/*.h, excluding testsuite.h.
+These are the complete official common dialect and its transitive includes.
+The application uses common/mavlink.h and the official HIGHRES_IMU encoder.
+Builds are offline and never fetch or follow a branch.
+
+License: generated MAVLink code is MIT-licensed under the generator-output
+exception in the upstream COPYING file. COPYING is retained here verbatim from
+https://github.com/mavlink/mavlink/blob/master/COPYING (retrieved 2026-11-04).
+The archive itself does not include a top-level license file.

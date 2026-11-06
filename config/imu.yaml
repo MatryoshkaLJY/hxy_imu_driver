@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: Apache-2.0
+/**:
+  ros__parameters:
+    # Empty: auto-select a single HXY IMU; a stable /dev/serial/by-id/... is supported.
+    port: ""
+    frame_id: imu_link
+    topic: imu/data_raw
+    convert_frd_to_flu: true
+    system_id: 1
+    component_id: 200
+    sensor_id: 0
+    reconnect_interval: 1.0
+    data_timeout: 2.0
+    # Diagonal variances in OUTPUT axes. All zeros mean covariance unknown.
+    linear_acceleration_variance: [0.0, 0.0, 0.0]
+    angular_velocity_variance: [0.0, 0.0, 0.0]

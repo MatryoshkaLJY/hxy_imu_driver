@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hxy_imu_driver</name>
+  <version>0.1.0</version>
+  <description>USB CDC MAVLink HIGHRES_IMU driver for the HXY IMU.</description>
+  <maintainer email="MatryoshkaLJY@users.noreply.github.com">MatryoshkaLJY</maintainer>
+  <license>Apache-2.0</license>
+  <url type="repository">https://github.com/MatryoshkaLJY/hxy_imu_driver</url>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>sensor_msgs</depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <test_depend>ament_cmake_test</test_depend>
+  <test_depend>rclpy</test_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
